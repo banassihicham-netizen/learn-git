@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+body{
+ 
+  background-image: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')  ;
+  background-size: cover;
+}  
+nav{
+    background:rgba(87, 85, 85, 0.487);
+      color:white;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding: 15px 40px;
+    }
+h1{
+    font-size: 2em;
+    color: #33333347;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.ul1{ 
+    margin-right: 500px;
+    color:white;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  gap: 25px;
+}
+.ul2{
+    margin-right: 50px;
+    color:white;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  gap: 25px;
+}
+.hero{
+  display:flex;
+  color: white;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  height:80vh;
+}
+.content h2{
+    font-size: 4em;
+    color: white;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.btn{
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn2{
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn3{
+  background-color: #ee0970;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #ee0970;
+  border-radius: 20px;
+  cursor: pointer;
+}
